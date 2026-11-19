@@ -1,0 +1,55 @@
+{
+  "version": 3,
+  "motd": "Welcome back! New events every weekend.",
+  "dailyDisabled": false,
+  "eventsDisabled": false,
+  "telemetryUrl": "",
+  "tuning": {
+    "timeLimit": 0,
+    "xpMultiplier": 0,
+    "inkMultiplier": 0,
+    "dailyBonusXp": 100,
+    "streakBonusXp": 25
+  },
+  "events": [
+    {
+      "id": "double_xp_weekend",
+      "title": "Double XP Weekend",
+      "description": "All XP is doubled while it lasts.",
+      "startUtc": "2026-11-20T00:00:00Z",
+      "endUtc": "2026-11-23T00:00:00Z",
+      "xpMultiplier": 2,
+      "inkMultiplier": 0,
+      "timeBonus": 0
+    },
+    {
+      "id": "ink_rush",
+      "title": "Ink Rush",
+      "description": "50% more ink on every level.",
+      "startUtc": "2026-11-27T00:00:00Z",
+      "endUtc": "2026-11-30T00:00:00Z",
+      "xpMultiplier": 0,
+      "inkMultiplier": 1.5,
+      "timeBonus": 0
+    },
+    {
+      "id": "turbo_time",
+      "title": "Turbo Time",
+      "description": "15 extra seconds on the clock.",
+      "startUtc": "2026-12-04T00:00:00Z",
+      "endUtc": "2026-12-07T00:00:00Z",
+      "xpMultiplier": 0,
+      "inkMultiplier": 0,
+      "timeBonus": 15
+    }
+  ],
+  "experiments": [
+    {
+      "id": "timer_test",
+      "variants": [
+        { "name": "A", "weight": 50, "timeLimit": 0,  "xpMultiplier": 0, "inkMultiplier": 0 },
+        { "name": "B", "weight": 50, "timeLimit": 75, "xpMultiplier": 0, "inkMultiplier": 0 }
+      ]
+    }
+  ]
+}
