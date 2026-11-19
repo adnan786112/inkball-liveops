@@ -17,7 +17,7 @@
       "title": "Double XP Weekend",
       "description": "All XP is doubled while it lasts.",
       "startUtc": "2026-11-19T00:00:00Z",
-      "endUtc": "2026-11-19T00:00:00Z",
+      "endUtc": "2026-11-20T00:00:00Z",
       "xpMultiplier": 2,
       "inkMultiplier": 0,
       "timeBonus": 0
